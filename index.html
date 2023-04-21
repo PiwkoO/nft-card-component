@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>NFT preview card component</title>
+</head>
+<body>
+  <main class="nft-card">
+    <div class="nft-card__img-container">
+      <img src="./images/image-equilibrium.jpg" alt="nft preview" class="nft-card__img">
+      <a href="#" class="nft-card__preview"></a>
+    </div>
+    <a href="#" class="nft-card__title">Equilibrium #3429</a>
+    <p class="nft-card__desc">Our Equilibrium collection promotes balance and calm.</p>
+    <div class="nft-card__info">
+      <span class="nft-card__price">0.041 ETH</span>
+      <span class="nft-card__time">3 days left</span>
+    </div>
+    <div class="nft-card__author">
+      <img src="./images/image-avatar.png" alt="author avatar" class="nft-card__author-avatar">
+      <p class="nft-card__created-by">Creation of <a href="#" class="nft-card__author-name">Jules Wyvern</a></p>
+    </div>
+  </main>
+  <script type="application/javascript">
+    const documentHeight = () => document.documentElement.style.setProperty('--height', `${window.innerHeight}px`);
+    window.addEventListener('resize', documentHeight);
+    documentHeight();
+  </script>
+</body>
+</html>
