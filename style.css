@@ -36,7 +36,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
   min-height: var(--height);
   background-color: var(--main-bg);
 }
@@ -176,14 +175,27 @@ body {
   color: var(--cyan);
 }
 
-@media (max-width: 300px) {
+@media (min-width: 300px) {
   body {
-    padding: 0;
+    padding: 30px;
   }
 }
 
 @media (min-width: 425px) {
   .nf-card {
+    padding: 24px 24px 32px;
     max-width: 350px;
+  }
+
+  .nft-card__title {
+    margin-bottom: 16px;
+  }
+
+  .nft-card__desc {
+    margin-bottom: 24px;
+  }
+
+  .nft-card__info {
+    margin-bottom: 24px;
   }
 }
