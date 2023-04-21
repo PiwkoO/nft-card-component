@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution on frontendmentor.io]()
-- [Live preview]()
+- [Solution on frontendmentor.io](https://www.frontendmentor.io/solutions/nft-preview-card-component-BNTYDRDNYI)
+- [Live preview](https://piwkoo.github.io/nft-card-component/)
 
 ## My process
 
@@ -44,7 +44,7 @@ Users should be able to:
 
 ### What I learned
 
-In this project I learned that even though I start with mobile-first approach then Galaxy Fold beats up other smartphones width size with his 280px. I want to work on as good accessibility as possible so it wouldn't be smart to overlook it. 
+In this project I learned that even though I start with mobile-first approach then Galaxy Fold beats up other smartphones width size with his 280px. I want to work on as good accessibility as possible, so it wouldn't be smart to overlook it. 
 
 ### Continued development
 
