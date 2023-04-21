@@ -181,3 +181,9 @@ body {
     padding: 0;
   }
 }
+
+@media (min-width: 425px) {
+  .nf-card {
+    max-width: 350px;
+  }
+}
